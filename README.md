@@ -19,7 +19,7 @@ Python is the basic Tools used for the dataset to perform Data Manipulation in w
 - Data Cleaning/Preparation 
 - Data Exploration/Visualization
 
-### Data Cleaning/Preparation
+#### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks under Data cleaning and formatting:
 1. Data Loading and Inspection: import of Librabries and Dataset
@@ -59,7 +59,7 @@ Sales.groupby('Order Date').Sales.agg(['mean','max','median','min'])
 Sales.groupby('Segment').Sales.agg(['mean','max','median','min'])
 ```
 
-### Data Exploration/Visualization
+#### Data Exploration/Visualization
 
 We use libraries such as Matplotlib,and Seaborn to visualize the manipulated data and gain insights through plots, charts, and graphs.
 ```Python
